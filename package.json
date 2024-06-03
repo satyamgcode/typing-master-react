@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "npm run dev",
-    "build": "npm build",
+    "build": "npm run build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "npm preview",
-    "start" : "npm start"
+    "start" : "npm run start"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
